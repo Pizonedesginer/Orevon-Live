@@ -1,0 +1,130 @@
+.expertise {
+    background-color: rgb(24, 50, 64);
+    padding: 193px 30px;
+    background-image: url(../rel-img/expertise-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    .about-bg {
+        background: #ffffff;
+    }
+
+    .about-block {
+
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 80px 90px 60px 90px;
+            color: #000;
+            height: 100%;
+            width: 75%;
+        }
+
+        .about-img {
+            width: 23%;
+            margin-left: auto;
+            display: inline-block;
+            background-color: #eceeef;
+        }
+
+        .details {
+            font-size: 19px;
+            font-weight: 300;
+            line-height: 30px;
+            padding-right: 0;
+        }
+
+        .breaf {
+            padding: 25px 20px;
+
+            h4 {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                margin-bottom: 0;
+
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 26px;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+    @media screen and (min-width:1200px) {
+        & {
+            padding: 14.28571428571428vw 2.142857142857142vw;
+        }
+
+        .about-block {
+            .about {
+                padding: 5.7142857142857vw 6.42857142857vw 4.2857142857142857vw 6.42857142857vw;
+            }
+
+            .details {
+                font-size: 1.35714285714285vw;
+                line-height: 2.142857142857vw;
+            }
+
+            .breaf {
+                padding: 1.785714285714vw 1.42857142857142vw;
+
+                h4 {
+                    font-size: 1.142857142857142vw;
+                    line-height: 1.85714285714285vw;
+                }
+
+                p {
+                    font-size: 1vw;
+                    line-height: 1.857142857142857vw;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:992px) {
+        .about-block {
+            .about {
+                padding: 40px 50px 40px;
+                // width: 100%;
+            }
+
+            .details {
+                font-size: 16px;
+                line-height: 30px;
+                padding-right: 0;
+            }
+
+
+        }
+    }
+
+    @media screen and (max-widtH:700px) {
+        .about-block {
+            .about {
+                padding: 0;
+                width: 100%;
+            }
+
+            .details {
+                font-size: 14px;
+                line-height: 22px;
+                padding-right: 0;
+            }
+
+            .about-img {
+                width: 100%;
+                margin-top: 40px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

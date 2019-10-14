@@ -1,0 +1,182 @@
+.investment {
+    padding: 100px 15px 100px 25px;
+
+    .about .details {
+        color: #000;
+    }
+}
+
+.im-plans {
+    padding: 80px 50px 70px 50px;
+    color: #fff;
+    height: 100%;
+    background-image: url("../img/ocatane-shape-back.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+
+    .titile {
+        font-size: 50px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        font-family: $font-primary;
+        font-weight: normal;
+        margin-bottom: 60px;
+    }
+
+    .details {
+        font-size: 16px;
+        line-height: 30px;
+    font-weight: 300;
+    }
+}
+
+.im-1 {
+    background-color: #183240;
+}
+
+.im-2 {
+    background-color: #465452;
+}
+
+.im-3 {
+    background-color: #587785;
+}
+
+.contact-request {
+    font-size: 19px;
+    font-weight: 600;
+
+    text-align: center;
+    transition: .5s;
+
+    .contact-request-btn {
+        padding: 33px 15px;
+        display: block;
+        background-color: #D26C58;
+        color: #fff;
+
+    }
+}
+
+.index-design {
+    .investment {
+        padding: 100px 15px 50px 25px;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    .investment {
+        padding: 7.142857142857142857vw 1.0714285714285714285vw 7.142857142857142857vw 1.7857142857142vw;
+    }
+
+    .p-xl-2 {
+        padding: 0.7142857142857142vw !important;
+    }
+
+    .im-plans {
+        padding: 5.714285714285714vw 3.571428571428vw 5vw 3.571428571428vw;
+
+        .titile {
+            font-size: 2.857142857142857142vw;
+            margin-bottom: 0.71428571428vw;
+        }
+
+        .sub-title {
+            font-size: 1.428571428571428vw;
+            margin-bottom: 4.2857142857142857142vw;
+        }
+
+        .details {
+            font-size: 1.142857142857142vw;
+            line-height: 1.85714285714285vw;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .im-plans {
+        padding: 50px 30px 60px 30px;
+
+        .titile {
+            font-size: 35px;
+        }
+
+        .sub-title {
+            font-size: 16px;
+        }
+
+        .details {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .im-plans {
+        padding: 35px 25px 50px;
+
+        .titile {
+            font-size: 45px;
+        }
+
+        .sub-title {
+            font-size: 26px;
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .im-plans {
+
+        .titile {
+            font-size: 30px;
+        }
+
+        .sub-title {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:568px) {
+    .im-plans {
+        padding: 35px 25px 90px;
+
+        .titile {
+            font-size: 10vw;
+        }
+
+        .sub-title {
+            font-size: 5vw;
+        }
+    }
+
+    .contact-request {
+        font-size: 16px;
+
+        .contact-request-btn {
+            padding: 33px 20px;
+        }
+    }
+
+    .index-design .investment {
+        padding: 50px 25px;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .investment {
+        padding: 50px 10px 50px;
+    }
+}

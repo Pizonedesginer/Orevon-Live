@@ -1,0 +1,439 @@
+.upload-btn {
+    position: relative;
+
+    input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.upload-btn.btn {
+    background: #F5F5F5;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    padding: 11px 24px;
+}
+
+
+
+.form-control {
+    background: #F5F5F5;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #183240;
+
+    &:focus {
+        background-color: #ffffff;
+        outline: 0;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        color: #183240;
+        border: 1px solid rgba(24, 50, 64, 0.05);
+        box-shadow: 0px 1px 3px rgba(199, 74, 51, 0.15);
+    }
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #183240;
+}
+
+
+
+.theme-check {
+    display: block;
+    position: relative;
+    top: 20%;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.theme-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: #eee;
+}
+
+.theme-check:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.theme-check input:checked~.checkmark {
+    background-color: #43CB83;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.theme-check input:checked~.checkmark:after {
+    display: block;
+}
+
+.theme-check .checkmark:after {
+    left: 9px;
+    top: 6px;
+    width: 7px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.contact-section {
+    background: #183240;
+    padding: 25px 0;
+    padding-top: 250px;
+
+    .content-block {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-right: 0;
+        margin-top: 54px;
+    }
+
+    .sec-title {
+        margin-bottom: 10px;
+    }
+}
+
+
+.contact-panel,
+.press-release {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 4rem 5rem;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.contact-section {
+
+    .contact-panel:first-child {
+        margin-top: 0;
+    }
+}
+
+.contact-panel.contact-link,
+.press-release {
+    padding-bottom: 4rem;
+}
+
+.press-release {
+    background-color: #F2EBD6;
+}
+
+.file-block {
+    display: flex;
+    align-items: center;
+    background: #E7E0CC;
+    padding: 30px;
+    border-radius: 5px;
+
+    .image {
+        margin-right: 35px;
+    }
+
+    .details {
+
+        h4 {
+            font-size: 19px;
+            font-weight: 300;
+            margin-bottom: 0;
+            line-height: 24px;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 300;
+            margin-bottom: 0;
+            line-height: 20px;
+        }
+    }
+}
+
+.contact-panel.contact-link h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+
+.index-design {
+    .contact-section::before {
+        content: "";
+        background: url(../rel-img/landing-img-contact.jpg) no-repeat top center;
+        background-size: 100%;
+        background-position-y: -10%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) {
+    .index-design .contact-section {
+        padding: 2.714286vw 0;
+        padding-top: 15.57142857142vw;
+    }
+
+    .contact-section {
+        padding: 5.714285714285vw 0;
+        padding-top: 19.285714vw;
+
+        .sec-title {
+            margin-bottom: 0.7142857142857vw;
+        }
+
+        .content-block {
+            margin-top: 3.571428571428571vw;
+        }
+
+        .contact-panel,
+        .press-release {
+            padding: 5.714286vw 7.142857vw;
+            padding-bottom: 2.5714285714285714vw;
+            margin-top: 3.57142857142vw;
+        }
+
+        .contact-panel.contact-link {
+            padding: 2.428571428571vw 7.142857vw;
+
+            h3 {
+                font-size: 1.357142857142857142vw;
+            }
+        }
+
+        .form-group {
+            margin-bottom: calc(0.571428571428571vw * 2);
+
+            label {
+                font-size: 1vw;
+                line-height: 1.285714285714vw;
+                margin-bottom: 0.571428571428571vw;
+            }
+        }
+
+        .form-control {
+            border-radius: 0.357142857142vw;
+            font-size: 1vw;
+            line-height: 2vw;
+            padding: 0.428571428571428vw 0.857142857142vw;
+            height: 3vw;
+            font-weight: 500;
+
+            &:focus {
+                font-size: 1vw;
+                line-height: 1.285714285714285vw;
+            }
+        }
+
+        textarea.form-control {
+            height: 8.5714285714285vw;
+        }
+
+        .upload-btn.btn {
+            border-radius: 0.357142857142857vw;
+            font-size: 1vw;
+            padding: 0.7857142857142857vw 1.714285714285vw;
+        }
+
+        .checkmark {
+            top: -0.214285714285vw;
+            height: 1.78571428571428vw;
+            width: 1.78571428571428vw;
+            border-radius: 3.57142857142857vw;
+        }
+
+        .theme-check .checkmark:after {
+            left: 0.642857142857142857vw;
+            top: 0.442857142vw;
+            width: 0.5vw;
+            height: 0.7142857142857142vw;
+            border-width: 0 0.214285714285714285vw 0.214285714285714285vw 0;
+        }
+
+        .theme-check {
+            padding-left: 2.5vw;
+            margin-bottom: 0.8571428571428571vw;
+            font-size: 1.1428571428571vw;
+            text-align: right;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 5px;
+        }
+
+        .btn-rm img {
+            padding-left: 1.8571428571428vw;
+            top: -0.142857142vw;
+            height: 0.7142857142857142vw;
+        }
+
+        .file-block {
+            padding: 2.14285714285714285vw;
+            border-radius: 0.35714285714285vw;
+            margin: 0 calc(1.07142857142857vw - 15px);
+            margin-top: 0.7619047619vw;
+
+            .image {
+                margin-right: 2.5vw;
+
+                img {
+                    width: 2.42857142857142vw;
+                }
+            }
+
+            .details {
+                h4 {
+                    font-size: 1.35714285714285vw;
+                    line-height: 1.71428571428571vw;
+                }
+
+                p {
+                    font-size: 1.07142857142857142vw;
+                    line-height: 1.42857142857142vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .contact-panel,
+    .press-release {
+        padding: 2rem 3rem;
+    }
+
+    .contact-panel.contact-link,
+    .press-release {
+        padding-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .contact-section .btn-rm {
+        &:hover {
+            img.white-black {
+                left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .index-design {
+        .contact-section::before {
+            content: "";
+            background: url(../rel-img/contac-sm.jpg) no-repeat top center;
+            background-size: 100%;
+            background-position-y: -10%;
+        }
+
+        .sec-title {
+            margin-bottom: 30px;
+
+            h2 {
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .contact-panel,
+    .press-release {
+        padding: 25px 20px;
+        margin-top: 40px;
+    }
+
+    .press-release {
+        padding-top: 35px;
+    }
+
+    .content-block p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        margin-bottom: 36px;
+    }
+
+    .contact-panel.contact-link h3 {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .content-block p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .file-block {
+        padding: 20px;
+        margin-top: 10px !important;
+
+        .image {
+            margin-right: 20px;
+        }
+
+        .details {
+            h4 {
+                font-size: 14px;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 30px;
+            }
+        }
+    }
+}

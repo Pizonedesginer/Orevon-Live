@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="290.005" height="264.997" viewBox="0 0 290.005 264.997">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="290.005" height="264.997" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Objet_dynamique_vectoriel" data-name="Objet dynamique vectoriel" transform="translate(-205.996 -2342.002)">
+    <g id="Objet_dynamique_vectoriel-2" data-name="Objet dynamique vectoriel" transform="translate(-3429.125 777.132)">
+      <path id="Path_4003" data-name="Path 4003" d="M3771.231,1829.866l-99.907-44.544-36.2-96.061,48.727-91.316,105.092-33.076L3888.9,1609.4l36.228,96.077-48.752,91.3Z" fill="#050607"/>
+    </g>
+    <g id="Objet_dynamique_vectoriel-3" data-name="Objet dynamique vectoriel" transform="translate(-3429.125 777.132)">
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(3635.121 1564.87)" clip-path="url(#clip-path)">
+        <g transform="translate(-3635.121 -1564.87)">
+          <path id="octagon" d="M3771.231,1829.866l-99.907-44.544-36.2-96.061,48.727-91.316,105.092-33.076L3888.9,1609.4l36.228,96.077-48.752,91.3Z" fill="#587785"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

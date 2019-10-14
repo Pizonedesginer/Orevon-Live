@@ -1,0 +1,352 @@
+.equipe.about-section {
+    padding: 0 30px 0 30px;
+    margin-top: -100px;
+
+    .sec-title {
+        h2 {
+            font-size: 1.875rem;
+            font-family: $font-primary-1;
+            letter-spacing: 2px;
+            position: unset;
+            padding-bottom: 5px;
+            margin-bottom: 0;
+        }
+
+        h4 {
+            font-size: 1.275rem;
+            font-family: $font-primary-1;
+            letter-spacing: 1px;
+            padding-bottom: 18px;
+            margin-bottom: 0;
+        }
+    }
+
+    .about-block {
+        margin-top: 25px;
+    }
+
+    .about {
+        padding: 50px 100px;
+        padding-right: 10px;
+        width: 60%;
+    }
+
+    .details {
+        padding-right: 0;
+
+        ul li {
+            list-style: inside;
+            font-family: $font-sec;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #565656;
+        }
+
+    }
+
+    .about-img {
+        padding-top: 200px;
+        width: 40%;
+
+        img {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+            max-width: 290px;
+        }
+
+    }
+}
+
+
+.portfolio-section.board {
+    padding-top: 0;
+    margin-top: 40px;
+
+    .board-block {
+        padding: 80px 90px 60px 90px;
+        background-color: #E7E1CB;
+    }
+
+    .pf-list li:nth-child(3n+1),
+    .pf-list li:nth-child(3n+3),
+    .pf-list li:nth-child(2n+2),
+    .pf-list li:nth-child(2n+1) {
+        padding: 0 15px;
+    }
+
+    .pf-bx .pf-top img {
+        max-width: 100%;
+    }
+
+    .pf-list li {}
+
+    .pf-bx {
+        .pf-top {
+            padding: 0;
+            background: rgba(255, 255, 255, 0);
+            min-height: auto;
+            max-height: initial;
+        }
+
+        .pf-body {
+            h3 {
+                margin: 0;
+                margin-top: 15px;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 700;
+                text-transform: capitalize;
+                font-family: $font-sec;
+                background: transparent;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+        }
+    }
+}
+
+.board {
+    .pf-bx {
+        .pf-top {
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        &:hover .pf-top img {
+            display: block;
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .equipe.about-section {
+        padding: 0 2.1428571428vw 0 2.1428571428vw;
+        margin-top: -7.14285714285vw;
+
+        .about {
+            padding: 3.5714285714285vw 7.1428571428571vw;
+            padding-right: 0.71428571428571vw;
+
+            .details {
+                font-size: 1.3571428571428vw;
+                font-weight: 500;
+                line-height: 2.1428571428571vw;
+            }
+
+        }
+
+        .about-block {
+            margin-top: 1.78571428571428571vw;
+        }
+
+        .about-img {
+            padding-top: 14.285714285vw;
+        }
+
+        .details ul {
+            font-size: 2.8571428571428vw;
+            font-size: 1.428571428vw;
+            min-height: 12.857142857vw;
+
+            li {
+                font-size: 1.142857vw;
+                line-height: 1.7142857142857vw;
+            }
+        }
+
+        .sec-title {
+            h2 {
+                font-size: 2.142857142vw;
+                letter-spacing: 0.1428571428571vw;
+                padding-bottom: 0.35714285714285vw;
+            }
+
+            h4 {
+                font-size: 1.45714285714vw;
+                letter-spacing: 0.071428571428vw;
+                padding-bottom: 1.28571428571vw;
+            }
+        }
+
+
+    }
+
+    .portfolio-section.board {
+        margin-top: 2.857142857142857vw;
+
+        .pf-bx {
+            .pf-top {
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            .pf-body {
+                h3 {
+                    margin: 0;
+                    margin-top: 1.07142857vw;
+                    font-size: 1.2857142857vw;
+                    line-height: 1.71428571428571vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .equipe.about-section .about-img {
+        padding-top: 160px;
+        width: 30%;
+    }
+
+    .portfolio-section.board {
+        .board-block {
+            padding: 50px 60px 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .equipe.about-section {
+        .about {
+            padding: 40px 50px;
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .equipe.about-section {
+        .sec-title {
+            h2 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 16px;
+            }
+        }
+
+        .details ul li {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+    .portfolio-section.board {
+        .board-block {
+            padding: 40px 40px 60px 40px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    .equipe.about-section {
+        .about-block {
+            padding: 40px 35px;
+        }
+
+        .about {
+            padding: 0;
+            width: 100%;
+        }
+
+        .about-img {
+            padding: 30px 0;
+            width: 100%;
+        }
+    }
+
+    .equipe .top-section {
+        height: auto;
+        min-height: auto;
+        top: 30%;
+    }
+
+    .equipe.landing-section {
+        height: 100vh;
+        max-height: 630px;
+
+        .landing-text {
+            h1 {
+                // font-size: 44px;
+                // line-height: 50px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+    }
+
+    .portfolio-section.board {
+        padding: 0 30px 0 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .equipe.about-section {
+        .about {
+            padding-right: 0;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width:568px) {
+    .equipe.landing-section {
+        max-height: 510px;
+
+        .landing-text h1 {
+            font-size: 25px;
+            padding: 0;
+            line-height: 35px;
+            margin-bottom: 40px;
+
+            a {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .equipe.about-section {
+        padding: 0 15px 80px 15px;
+        margin-top: -100px;
+    }
+
+
+    .portfolio-section.board {
+
+        .pf-list li:nth-child(3n+1),
+        .pf-list li:nth-child(3n+3),
+        .pf-list li:nth-child(2n+2),
+        .pf-list li:nth-child(2n+1) {
+            padding: 0 0;
+        }
+
+        .board-block {
+            padding: 30px 20px 20px;
+        }
+
+        .pf-list {
+            flex-grow: 1;
+            margin: 0 0;
+        }
+    }
+
+
+}
