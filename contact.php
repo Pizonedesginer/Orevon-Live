@@ -23,6 +23,7 @@ if($_POST['model']!=""){
 	//$mail->AddAddress("suthar.vinod@gmail.com");		
 	$mail->Subject = $decoded['Subject'];
 	$mail->WordWrap   = 80;
+	$mail->CharSet = 'UTF-8';
 	$mail->MsgHTML($msg_body);
 	
 	if(isset($_FILES["file"]["name"])) {
